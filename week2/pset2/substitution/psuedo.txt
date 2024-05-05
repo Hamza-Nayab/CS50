@@ -1,0 +1,38 @@
+for (int i = 0; i < l; i++)      //iterate over the plaintext_Length
+    {
+        if (isupper(pt[i]))                  //check if plaintext character is uppercase
+        {
+            printf("%c", toupper(argv[1][pt[i] - 65]));  //calculation to print the encipher text amd make sure it is Uppercase (case doesn't change)
+        }
+        else if (islower(pt[i]))  //check if plaintext character is lowercase
+        {
+            printf("%c", tolower(argv[1][pt[i] - 97]));  ///calculation to print the encipher text amd make sure it is lowercase(case doesn't change)
+        }
+        else   //if plaintext is anything else, print it like that without changing
+        {
+            printf("%c", pt[i]);
+        }
+
+
+
+
+
+
+
+     for (int i = 0; i < l; i++)
+    {
+        if(isupper(pt[i]))
+        {
+            printf("%c",toupper(argv[1][pt[i] - 65]));
+        }
+        else if(islower(pt[i]))
+        {
+            printf("%c",tolower(argv[1][pt[i] - 97]));
+        }
+        else
+        {
+            printf("%c",pt[i]);
+        }
+    }
+    printf("\n");
+    return 0;

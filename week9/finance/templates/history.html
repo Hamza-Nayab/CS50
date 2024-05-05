@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    HISTORY
+{% endblock %}
+
+{% block main %}
+    <main class="container py-5 text-center">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="text-start">Symbol</th>
+                    <th class="text-end">Shares</th>
+                    <th class="text-end">Price</th>
+                    <th class="text-end">Transacted</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for info in infos %}
+                <tr>
+                    <td class="text-start">{{info.symbol}}</td>
+                    <td class="text-end">{{info.shares}}</td>
+                    <td class="text-end">{{info.price}}</td>
+                    <td class="text-end">{{info.date}}</td>
+
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+{% endblock %}

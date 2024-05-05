@@ -1,0 +1,28 @@
+
+.para
+{
+    background-color: lightgrey;
+    color: blue;
+    border: 5px black;
+    border-radius: 10%;
+}
+.hed
+{
+    background-color: darkgrey;
+    color: Black;
+    border: 25px black;
+    border-radius: 40%;
+}
+.img
+{
+    border: 25px black;
+    border-radius: 40%;
+}
+
+#main
+{
+    border: 5px solid black;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}

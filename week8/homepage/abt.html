@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+            $.get("nav.html", function(data){
+            $("#navb").replaceWith(data);
+            });
+            </script>
+        <title>About me</title>
+    </head>
+    <body>
+        <div id = "navb"></div>
+
+        <h1 class = "text-center">Here's What i do!</h1>
+        <img id = "main" class="rounded mx-auto d-block img-thumbnail img img-fluid" alt="Cat" src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <div>
+            <h2 class = "hed">About me</h2>
+            <p id = "para">Hamza Nayab is a youngster with a passion for technology, Blockchain, Business and startups. He plans to be a successful tech entrepreneur in the near future and make it to Forbes 30 under 30.
+
+                Currently working on Eggonia as its founder and orchestrated the roadmap along with whitepaper.
+
+                He took his first start-up at the age of 16 named enchant marketing which was an Instagram-based marketing agency, He gathered 50 bloggers and ran a campaign for a book store helping them generate sales and organic customer interaction.
+
+                He Pioneered STEM Society in his college alongside his fellow peers and became the only freshman to be part of the cabinet and served as Social Coordinator.
+            </p>
+            </div>
+            <h3 class = "hed">Fav Qoute</h3>
+            <p class = "para">Life's but a walking shadow, a poor player that struts and frets his hour upon the stage and then is heard no more ~ William Shakespeare, Macbeth
+            </p>
+</body>
+</html>

@@ -1,0 +1,65 @@
+
+.para
+{
+    background-color: lightgrey;
+    color: blue;
+    border: 5px black;
+    border-radius: 10%;
+    text-align: justify;
+
+}
+.hed
+{
+    background-color: darkgrey;
+    color: Black;
+    border: 25px black;
+    border-radius: 40%;
+    text-decoration: underline overline;
+}
+.img
+{
+    border: 25px black;
+    border-radius: 40%;
+}
+
+#pad
+{
+padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+#main
+{
+    border: 5px solid black;
+    margin: 5px;
+    border-radius: 10px solid black;
+    max-width: 100%;
+    box-shadow:100;
+}
+h2
+{
+    font-family: monospace;
+    font-size: 22;
+    font-weight: 44;
+    color: Solid Blue;
+    line-height: 2.5;
+}
+
+h3
+{
+    font-family: monospace;
+    font-size: 22;
+    font-weight: 44;
+    color: Solid Blue;
+    line-height: 2.5;
+}
+body
+{
+    font-family: sans serif;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 100%
+    line-height: normal;
+}

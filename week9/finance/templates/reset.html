@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Reset
+{% endblock %}
+
+{% block main %}
+    <form action="/reset" method="POST">
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="pass" name="pass" placeholder="Password" type="password">
+            <br>
+            <input class="form-control mx-auto w-auto" id="confirm" name="confirm" placeholder="Confirm Password" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Reset</button>
+        <br>
+        <p>After Submission you will be logged out</p>
+    </form>
+{% endblock %}

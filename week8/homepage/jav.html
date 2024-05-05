@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="jav.js"></script>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+            $.get("nav.html", function(data){
+            $("#navb").replaceWith(data);
+            });
+            </script>
+        <title>javascript</title>
+    </head>
+    <body>
+        <div id = "navb"></div>
+        <div id = "pad">
+
+        <h1 class = "text-center">Welcome Travler</h1>
+        <img id = "main" class="rounded mx-auto d-block img-thumbnail img img-fluid" alt="Cat" src="https://www.litter-robot.com/media/magefan_blog/black-cat-halloween5.png">
+
+        <h2 class = "hed">What is your name traveller</h2>
+        <form>
+            <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+            <input type="submit">
+        </form>
+        <h4 class = "hed"> We will Ask some question if you answer You will get a cookie:</h4>
+        <br><br>
+        <div class="section">
+            <h5>harry potter and the sorcerer's stone</h5>
+            <button class ="wrong">
+                Magician Stone
+            </button>
+            <button class ="right">
+                Philosopher's stone
+            </button>
+            <button class ="wrong">
+                Sorcerer's pearl
+            </button>
+            <p id="response"></p>
+        </div>
+        <br>
+            <div class="section">
+                <hr>
+                <h5>What street did harry potter's uncle and aunt live in?</h3>
+                <input id = "i2" type="text" placeholder="****** drive"></input>
+                <button id="test">Check it</button>
+                <p id="r2"></p>
+            </div>
+        </div>
+
+</body>
+</html>

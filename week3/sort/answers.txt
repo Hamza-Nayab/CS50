@@ -1,0 +1,33 @@
+sort1 uses: Bubble sort
+
+How do you know?:
+
+for sorted50000.txt it takes 0.795
+for random50000.txt it takkes 7.896
+
+O (n2) > Ω (n)
+
+it takes less time when using it on sorted text.
+
+
+sort2 uses: Merge Sort
+
+How do you know?:
+
+for sorted50000.txt it takes 0.568
+for random50000.txt it takes 0.678
+
+O (n logn) = Ω (n logn)
+
+it takes almost equal time on both sorted and unsorted and it is the fastest among all.
+
+sort3 uses: Selection Sort
+
+How do you know?:
+
+for sorted50000.txt it takes 3.474
+for random50000.txt it takes 3.549
+
+O (n2) = Ω (n2)
+
+it takes more and almost equal time when running through sorted and random.
